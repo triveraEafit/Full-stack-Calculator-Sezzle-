@@ -3,6 +3,23 @@
 A full-stack calculator: a Go REST API doing the arithmetic, and a React +
 TypeScript frontend that consumes it.
 
+## Quick start (Docker)
+
+```bash
+docker compose up --build
+```
+
+Then open **http://localhost:3000** in a browser. The calculator UI is
+served there; it talks to the backend automatically (proxied through
+nginx, no extra setup).
+
+Backend on its own is reachable at `http://localhost:8080` (e.g.
+`http://localhost:8080/healthz`), but you shouldn't need to hit it directly
+— the frontend at :3000 is the app.
+
+Don't have Docker? See [Running locally](#running-locally) for the
+no-Docker setup.
+
 ## Assignment deliverables
 
 | Deliverable | Status | Where |
