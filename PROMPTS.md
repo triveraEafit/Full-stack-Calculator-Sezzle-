@@ -76,10 +76,6 @@ content.
     to its content's natural width; fixed with one added CSS rule
     constraining `#root`.
 
-13. **Submission packaging.** Requested the remaining deliverables only:
-    README, coverage report, optional Docker support, and a submission
-    checklist — explicitly no further redesign, refactor, or new features.
-
 Each step's output was reviewed before moving to the next; several steps
-(4–8, 11–13) were verified by actually running the resulting tests/build
+(4–8, 11–12) were verified by actually running the resulting tests/build
 rather than trusting generated output at face value.
